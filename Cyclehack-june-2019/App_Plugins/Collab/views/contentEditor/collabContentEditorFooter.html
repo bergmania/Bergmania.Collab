@@ -1,0 +1,16 @@
+<div style="margin-left: auto; margin-right: auto;" class="umb-editor-footer-content__center-side" ng-controller="Collab.contentEditorController as vm">
+    
+    <span ng-repeat="user in vm.userInfo track by user.id">
+        <span style="float: left">
+        <umb-avatar
+                size="xs"
+                color="secondary"
+                name="{{user.name}}"
+                img-src="{{user.avatars[0]}}"
+                img-srcset="{{user.avatars[1]}} 2x, {{user.avatars[2]}} 3x">
+        </umb-avatar>
+            </span>
+    </span>
+
+
+</div>

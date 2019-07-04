@@ -1,0 +1,10 @@
+﻿{
+    "javascript": [
+        "~/App_Plugins/Collab/js/jquery.signalR.min.js", 
+        "~/umbraco/backoffice/signalr/hubs",
+        "~/App_Plugins/Collab/js/collab.modules.js",
+        "~/App_Plugins/Collab/js/collab.controllers.js",
+        "~/App_Plugins/Collab/js/collab.services.js",
+        "~/App_Plugins/Collab/js/collab.bootstraps.js"
+    ]
+}
